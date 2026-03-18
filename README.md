@@ -2,7 +2,7 @@
 
 > Load the library with:
 > ```lua
-> local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/meobeo8/Library/refs/heads/retard/SolixUI.lua"))()
+> local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/wrexlua/SOLIXHUB/refs/heads/retard/SolixUI.lua"))()
 > ```
 
 ---

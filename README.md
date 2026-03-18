@@ -1,4 +1,5 @@
 # SolixHub UI Library — Documentation
+# ⚠️ WARNING: This documentation is AI made. Maybe errors.
 
 > Load the library with:
 > ```lua

@@ -2,20 +2,20 @@ if getgenv().Library then
 	getgenv().Library:Unload()
 end
 
-if not isfolder("solixhub") then
-	makefolder("solixhub")
+if not isfolder("eclipse") then
+	makefolder("eclipse")
 end
 
-if not isfolder("solixhub/Assets") then
-	makefolder("solixhub/Assets")
+if not isfolder("eclipse/Assets") then
+	makefolder("eclipse/Assets")
 end
 
-if not isfolder("solixhub/Configs") then
-	makefolder("solixhub/Configs")
+if not isfolder("eclipse/Configs") then
+	makefolder("eclipse/Configs")
 end
 
-if not isfolder("solixhub/Themes") then
-	makefolder("solixhub/Themes")
+if not isfolder("eclipse/Themes") then
+	makefolder("eclipse/Themes")
 end
 
 local Library do
@@ -101,10 +101,10 @@ local Library do
 		},
 
 		Folders = {
-			Directory = "solixhub",
-			Configs = "solixhub/Configs",
-			Assets = "solixhub/Assets",
-			Themes = "solixhub/Themes"
+			Directory = "eclipse",
+			Configs = "eclipse/Configs",
+			Assets = "eclipse/Assets",
+			Themes = "eclipse/Themes"
 		},
 
 		Images = {
@@ -4695,7 +4695,7 @@ local Library do
 		Properties = Properties or { }
 
 		local Window = {
-			Name = Properties.Name or Properties.name or "solixhub",
+			Name = Properties.Name or Properties.name or "eclipse",
 			Size = Properties.Size or Properties.size or (not IsMobile and UDim2New(0, 770, 0, 526) or UDim2New(0, 526, 0, 350)),
 			FadeSpeed = Properties.FadeSpeed or Properties.fadespeed or 0.25,
 			BackgroundIcon = Properties.BackgroundIcon or Properties.backgroundicon or "rbxassetid://",
